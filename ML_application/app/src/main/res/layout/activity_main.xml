@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student placement predictor"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CGPA"
+        android:id="@+id/cgpa"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IQ"
+        android:id="@+id/iq"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Profile SCORE"
+        android:id="@+id/profile_score"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="predict"
+        android:id="@+id/predict"
+        android:layout_marginTop="30dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textSize="40dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+
+
+
+
+</LinearLayout>
